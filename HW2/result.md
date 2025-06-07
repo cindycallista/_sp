@@ -1,0 +1,24 @@
+1> ENT  0
+2> IMM  140736594661760
+3> PSH 
+4> IMM  5
+5> PSH 
+6> JSR 
+7> ENT  0
+8> LLA  2
+9> LI  
+10> PSH 
+11> IMM  1
+12> LE  
+13> BNZ 140736594661976
+14> LLA 2
+15> LI  
+16> PSH 
+17> IMM 1
+18> SUB 
+19> PSH 
+20> JSR 
+21> ENT 0
+... (大量fib呼叫)
+fib(5) = 5
+exit(0) cycle = 105
